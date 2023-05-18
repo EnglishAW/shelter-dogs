@@ -10,15 +10,6 @@ export interface Dog {
     breed: string
 }
 
-interface Location {
-    zip_code: string
-    latitude: number
-    longitude: number
-    city: string
-    state: string
-    county: string
-}
-
 export interface SearchDogResults {
     next?: string
     prev?: string

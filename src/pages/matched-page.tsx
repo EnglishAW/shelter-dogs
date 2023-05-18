@@ -24,7 +24,7 @@ function MatchedPage() {
         }
 
         fetchMatchedDog(matchId)
-    },[matchId])
+    },[matchId, navigate])
 
     const handleClickStartOver = () => {
         matchIdDispatcher({type: "clear", value: ""})

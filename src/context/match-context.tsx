@@ -1,10 +1,5 @@
 import { ReactNode, createContext, useReducer, useContext, Dispatch } from 'react';
 
-interface Store {
-  state: string,
-  dispatch: Dispatch<{type: string, value: string}>,
-}
-
 export const MatchContext = createContext("");
 export const MatchDispatchContext = createContext({} as Dispatch<{type: string, value: string}>);
 
